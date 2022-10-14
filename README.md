@@ -1,2 +1,2 @@
-# Livro-l-gca-de-Programa-o
+# Livro-logica programacao
 Atividades de lógica para reforçar
