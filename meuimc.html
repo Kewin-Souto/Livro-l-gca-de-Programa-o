@@ -1,0 +1,27 @@
+<script>
+    var mostra = function (frase) {
+        document.write(frase);
+
+    };
+    var pulaLinha = function () { document.write("<br> <br>"); };
+
+    var calculaIMC = function (altura, peso) {
+        var imc = peso / (altura * altura);
+        mostra(" IMC calculado é " + imc);
+
+    };
+
+    var peso = 130;
+    var altura = 1.80;
+    var imc = peso / (altura * altura);
+    mostra("Meu IMC é: " + imc.toFixed([2]));
+    pulaLinha();
+
+    var pesoJhennyfer = 90;
+    var alturaJhennyfer = 1.72;
+    var imcJhennyfer = pesoJhennyfer / (altura * altura);
+    mostra(" O IMC da Jhnnyfer é :" + imcJhennyfer.toFixed([2]))
+    pulaLinha();
+
+
+</script>
